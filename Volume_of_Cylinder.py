@@ -1,8 +1,9 @@
+#importing math module
 import math
 
 #asking for radius and height from user
-radius = input("Enter the radius of the cylinder in cm: ")
-height = input("Enter the height of the cylinder in cm: ")
+radius = input("Enter the radius of the cylinder in units: ")
+height = input("Enter the height of the cylinder in units: ")
 
 #converting the height/radius to floats
 radius = float(radius)
@@ -22,4 +23,4 @@ volume = round(volume, 1)
 volume = str(volume)
 
 #printing out result to the user (concatenation)
-print("The volume of the cylinder is " + volume + " cm^3.")
+print("The volume of the cylinder is " + volume + " units^3.")
